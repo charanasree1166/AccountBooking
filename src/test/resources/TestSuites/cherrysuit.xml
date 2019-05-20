@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="cherrysuit" verbose="1">
+	<test name="LogTest-chrome">
+		<parameter name="browser" value="chrome">
+		</parameter>
+			<classes>
+				<class name="com.packt.tests.LogTest">
+				</class>
+			</classes>	
+	</test>
+	
+	<test name="LogTest-internet">
+		<parameter name="browser" value="ie">
+		</parameter>
+			<classes>
+				<class name="com.packt.tests.LogTest">
+				</class>
+			</classes>	
+	</test>
+	
+
+</suite>

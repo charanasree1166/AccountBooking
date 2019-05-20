@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LogInTestSuiteVariousBrowsers]">
+  <test thread-count="5" name="LogInTest-FF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.packt.tests.LogInTest">
+        <methods>
+          <include name="logInTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.LogInTest -->
+    </classes>
+  </test> <!-- LogInTest-FF(failed) -->
+</suite> <!-- Failed suite [LogInTestSuiteVariousBrowsers] -->
