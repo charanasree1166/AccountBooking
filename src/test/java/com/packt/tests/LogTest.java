@@ -9,7 +9,7 @@ public class LogTest extends DriverTest{
 	@Test
 	public void logtest()
 	{
-			sample.get("https://www.indeed.com/");
+			sample.get("https://www.indeedqwe.com/");
 			
 }
 }
