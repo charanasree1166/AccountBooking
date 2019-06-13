@@ -8,7 +8,7 @@ public class LogInTest extends BaseTest {
 	
 	@Test
 	public void logInTest() {
-		driver.get("http://the-internet.herokuapp.com/login");
+		driver.get("http://the-internet.herokhfhfdjhfjffsfsauapp.com/login");
 		System.out.println("Page opened");
 	}
 }
